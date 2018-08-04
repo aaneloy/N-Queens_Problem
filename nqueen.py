@@ -1,6 +1,4 @@
 import copy
-
-
 def input_size():
     while True:
 
@@ -76,12 +74,8 @@ def add_solution(board):
 
 
 size = input_size()
-
 board = board_size(size)
-
 solutions = []
-
 solve(board, 0, size)
-
 print_solution(solutions, size)
 
