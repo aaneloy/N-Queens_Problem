@@ -78,4 +78,3 @@ board = board_size(size)
 solutions = []
 solve(board, 0, size)
 print_solution(solutions, size)
-
